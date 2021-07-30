@@ -1,0 +1,66 @@
+>>>Using Commends of Git
+URL: https://www.youtube.com/watch?v=S899mpA2cEc
+
+&&Working are >> Staging areq >> Local repository
+
+Linux system
+1.IP Address : 172.16.1.114 / 16
+user name : ds
+Password : Dev@2020
+Windows PC
+
+2.IP address : 172.16.1.115
+user name : Dev/administator	
+Password : Dev@2020
+
+Git staus (RED) >> Greeen >> 
+
+$git init (in windows pc)
+$ls
+$git add (Code file ex : java)
+$Git Add .(No.of files)
+$Git Add * (No.of. files)
+$Git status
+$git init
+$git commit -m (developing code for fs / bug fixing for fs)
+$git config --unset user.name
+$git config --global user.email "ram@gmail.com"
+$git config --global user.name "ramesh"
+$ git log
+$ git remote add origin (Repo URL)
+$ git push -u originn master
+
+LInux CMD
+Touch ramesh
+
+How to configure global level for local pc to github and bitbucket
+
+$git init
+$git config --global user.name "ramesh K"
+$git config --global user.email "rameshK@kastechssg.com"
+$git config --list
+$git status
+$git add file (work spaace to staging/Indux)
+$git commit -m "lable(msg)" {file name}
+$git log
+$git push (Directly send central repo)
+$git show cid (showing all files in CID)
+$git add (Code file ex : java)
+$Git Add .(No.of files)
+$Git Add * (No.of. files)
+$git reset HEAD file name (back to staing to workspace)
+$git reset --soft cid (local to stagging/Index back)
+$git reset --mixed (local to work space back)    
+$git -commmit -m "lable msg"(workspace to local for modified files)
+
+Need to config repo into local mechine
+$git clone (URL for centeral repo repo)
+$ls
+$cd (path name)
+$touch ramesh2
+$git status
+$git add
+$git sratus
+$git commit -m "lable" ramesh2
+$git status
+$git log
